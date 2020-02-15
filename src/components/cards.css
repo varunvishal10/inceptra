@@ -1,0 +1,17 @@
+.zoom {
+   
+    transition: transform .2s; 
+ 
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  .cardbg{
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(0, 159, 255,0.7),
+      rgba(236, 47, 75,0.7) 100%
+    );
+  }

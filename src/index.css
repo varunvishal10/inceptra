@@ -1,0 +1,127 @@
+#apppage .gradient {
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(0, 159, 255,0.7),
+      rgba(236, 47, 75,0.7) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(0, 159, 255,0.7),
+      rgba(236, 47, 75,0.7)  100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(0, 159, 255,0.7)),
+      to(rgba(236, 47, 75,0.7))
+    );
+    background: -o-linear-gradient(
+      45deg,
+      rgba(0, 159, 255,0.7),
+      rgba(236, 47, 75,0.7)  100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(0, 159, 255,0.7),
+      rgba(236, 47, 75,0.7)  100%
+    );
+  }
+  
+  #apppage .view {
+    background-image: url("https://imgur.com/ksIwo3T.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+  
+  #apppage h6 {
+    line-height: 1.7;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #apppage .animated img {
+      max-height: 35vh;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+  
+  @media (max-width: 767px) and (orientation: landscape) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: relative;
+    }
+  }
+  @media (max-width: 1000px) and (orientation: landscape) {
+    #apppage .view {
+      min-height: 150vh;
+    }
+  }
+
+  body{
+    font-family: 'Cuprum', sans-serif;
+background: #121212;
+background: -webkit-linear-gradient(to right, rgba(0, 159, 255,0.7), rgba(236, 47, 75,0.7));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(0, 159, 255,0.7), rgba(236, 47, 75,0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+scroll-behavior: smooth;
+color:white;
+  }
+
+  h1{
+    font-family: 'Kanit', sans-serif;
+  }
+  
+
+  #cards .view {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: fit-content;
+
+  }
+
+  .blinking {
+    animation: blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: whitesmoke;
+    }
+    49% {
+        color: transparent;
+    }
+    50% {
+        color: transparent;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: whitesmoke;
+    }
+}
+
+@import '//fonts.googleapis.com/css?family=Bangers';
+@import '//db.onlinewebfonts.com/c/139f801bd31bd849b3b9b8fb1962940e?family=Axiforma+Medium';
+
+#demo{
+  font-family: "Cuprum";
+  font-size: 3rem;
+  }
+  #demo1{
+    font-family: "Cuprum";
+    font-size: 3rem;
+    }
